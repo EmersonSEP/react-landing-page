@@ -14,9 +14,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 button {
-  background-color: none;
+  background-color: transparent;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 a {
