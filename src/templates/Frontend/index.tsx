@@ -3,13 +3,15 @@ import * as S from "./styles";
 
 type FrontendProps = {
   children: React.ReactNode;
-}
+};
 
-const Frontend = ({children}: FrontendProps) => {
+const Frontend = ({ children }: FrontendProps) => {
   return (
-  <S.Container>
-  <Header />
-  </S.Container>)
+    <S.Container>
+      <Header />
+      <main>{children}</main>
+    </S.Container>
+  );
 };
 
 export default Frontend;
