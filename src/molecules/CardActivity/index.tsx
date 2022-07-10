@@ -8,7 +8,11 @@ export function CardActivity () {
     <small>Activit</small>
     <div><span>18<FiArrowUp size={25} color='#fff'/>
     </span></div>
+
+
     </S.Container>
+
+
   )
 
 }

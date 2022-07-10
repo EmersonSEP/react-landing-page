@@ -11,6 +11,7 @@ export const Container = styled.div`
   border-radius: 12px;
   text-align: left;
   padding: 11px;
+  overflow: hidden;
   small {
     font-size: 15px;
   }
@@ -22,7 +23,5 @@ export const Container = styled.div`
       font-weight: 400;
       margin-right: 5px;
     }
-
- 
   }
 `;
