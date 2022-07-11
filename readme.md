@@ -1,5 +1,8 @@
-<h4 align="center"> 
+# Layout Hero Header
 
+###Teconologias utilizadas:
 
-	🚧  React Select 🚀 Em construção...  🚧
-</h4>
+1. React
+2. Typescript
+3. ViteJS
+4. Styled Components
