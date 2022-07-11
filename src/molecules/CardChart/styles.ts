@@ -33,12 +33,13 @@ function generationSpan() {
         border-radius: 5px;
         display: flex;
         align-items: flex-end;
-    span {
-        background-color: #5236ff;
-        display: block;
-        height: 45px; ${Math.ceil(Math.random() * 100)}px;
-        width: 3.5px;
-        border-radius: 5px;
+
+        span {
+            background-color: #5236ff;
+            display: block;
+            height: ${Math.ceil(Math.random() * 100)}px;
+            width: 3.5px;
+            border-radius: 5px;
       }
     }
     `);
