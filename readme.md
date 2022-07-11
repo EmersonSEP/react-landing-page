@@ -1,6 +1,6 @@
 # Layout Hero Header
 
-###Teconologias utilizadas:
+### Teconologias utilizadas:
 
 1. React
 2. Typescript
