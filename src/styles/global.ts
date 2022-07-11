@@ -1,4 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
+import Bk1 from '../assets/img/eclipse1.png'
+import Bk2 from '../assets/img/eclipse2.png'
 
 const GlobalStyle = createGlobalStyle`
 *{
@@ -12,6 +14,10 @@ html, body, #root{
 body {
   background-color: #F8FDFF;
   font-family: 'Poppins', sans-serif;
+  background-image: url(${Bk1}), url(${Bk2});
+  background-repeat: no-repeat;
+  background-position: 1000px, 800px;
+  background-size: cover;
 }
 button {
   background-color: transparent;

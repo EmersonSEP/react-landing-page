@@ -26,22 +26,31 @@ function generationSpan() {
 
   amountBars.forEach((item) => {
     styleSpan.push(`
-      div:nth-child(${item}) {
+      div:nth-child(${item + 1}) {
+        div {
         background-color: #EFF3FE;
         height: 91px ;
         width: 2.1px;
         border-radius: 5px;
         display: flex;
         align-items: flex-end;
+        flex-direction: colum;
 
         span {
             background-color: #5236ff;
             display: block;
+            height: 0px;
             height: ${Math.ceil(Math.random() * 100)}px;
             width: 3.5px;
             border-radius: 5px;
+        }
+      }
+      small {
+        color: #baccfd;
+        font-size:10px;
       }
     }
+
     `);
   });
   return styleSpan.join("");
@@ -50,4 +59,5 @@ function generationSpan() {
 export const Chart = styled.div`
   margin-top: 28px;
   ${generationSpan()}
+
 `;
