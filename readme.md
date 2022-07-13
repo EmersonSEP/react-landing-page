@@ -1,6 +1,6 @@
-# Layout Hero Header
+# Landing Page
 
-### Teconologias utilizadas:
+### Tecnologias utilizadas:
 
 1. React
 2. Typescript
